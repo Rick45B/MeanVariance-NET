@@ -7,7 +7,7 @@ The custom protocol works by sending a stream of data containing numbers separat
 Id est: 20 19 34 81 92 2 \n
 ```
 ...to the client, that will then proceed to show the results. <br>
-**BOTH CLIENT AND SERVER HAVE BEEN CODED FOR LINUX, SO IT'S NOT GUARANTEED TO COMPILE ON WINDOWS.**
+**BOTH CLIENT AND SERVER HAVE BEEN CODED FOR LINUX, SO IT'S NOT GUARANTEED TO COMPILE ON OTHER OPERATING SYSTEMS.**
 ## Installation and usage
 After downloading the client and server source files, compile them, remembering to add the **-pthreads** flag for the server, as it is multithreaded.
 As an example, compiling with gcc:<br>
